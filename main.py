@@ -18,8 +18,8 @@ try:
     time.sleep(1)
     alert = browser.switch_to.alert
     alert_text = alert.text
-    print(alert_text.split()[-1])
-    alert.accept()
+    #print(alert_text.split()[-1])
+    #alert.accept()
 
 finally:
     time.sleep(1)
